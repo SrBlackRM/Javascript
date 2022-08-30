@@ -1,0 +1,81 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(34, 98, 150);
+    max-width: 100vw;
+}
+
+#lista{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    background-color: white;
+    margin: 0;
+    border-radius: 10px;
+}
+
+#lista h1{
+    margin: 10px 0;
+    color: rgb(61, 61, 61);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#lista ul{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 100%;
+    margin: 0;
+}
+
+.btn-add-tarefa{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(216, 216, 216);
+    height: 30px;
+}
+
+.btn-add-tarefa:hover{
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+.input-nova-tarefa{
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(185, 185, 185);
+}
+
+.item-lista{
+    display: flex;
+    margin: 10px;
+    list-style: none;
+    width: 100%;
+}
+.item-lista h4{
+    color: rgb(61, 61, 61);
+    margin: 0;
+    margin-left: 40px;
+}
+
+.btn{
+    margin: 20px;
+}
+
+.btn-apagar{
+    display: flex;
+    margin-left: auto;
+    margin-right: 75px;
+    border: none;
+    background-color: rgb(214, 214, 214);
+    padding:5px;
+    border-radius: 5px;   
+}
+
+.btn-apagar:hover{
+    color: white;
+    background-color: gray;
+    cursor: pointer;
+}
